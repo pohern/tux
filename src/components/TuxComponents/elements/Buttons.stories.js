@@ -24,18 +24,8 @@ export const AllButtons = () => (
 );
 
 
-// storiesOf("Default").add("With Figma", (args) => (
-//   <WithFigma
-//     url={
-//       "https://www.figma.com/file/WKazrI05IMxIcso2Cn5obC/Tux-Design-Library?node-id=228%3A12"
-//     }
-//   >
-//     <Button {...args}>Karens Button</Button>
-//   </WithFigma>
-// ));
-
 export const Default = (args) =>
-  <Button {...args}>Karens Button</Button> 
+  <Button {...args}>Default Button</Button> 
   
 Default.args = {
     disabled: true,
